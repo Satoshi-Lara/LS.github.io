@@ -2,19 +2,31 @@
 body{
     margin: 0;
     font-family: "Hiragino Kaku Gothic ProN";
-    background-image:url("IMG_1342.JPG");
     background-repeat: no-repeat;
-    background-size: 100%;
     height:0vh;
+    background-image:url("IMG_1342.JPG");
+    background-size: 100%;
 }
-
-.copy-container h1{
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.top-wrapper {
+    padding: 180px o 100px 0;
+   
+    
+}
+.container h1{
     color:white;
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
     text-align: center;
-    float: left;
 }
-.copy-container h2{
+.container p{
     color: white;
+    opacity: 0.7;
     text-align: center;
 
 }
@@ -55,6 +67,66 @@ body{
     font-size: 60px;
 }
 
+.btn {
+    padding: 8px 24px;
+    display: inline-block;
+    opacity: 0.8;
+    transition: all 0.5s;
+    
+}
+
+.contents-item {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+    
+    
+}
+.contents-item p{
+    
+    top: 45px;
+    margin: auto;
+    padding: auto;
+    
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+
+.besuchen{
+    width:200px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 10px;
+    box-shadow:0 7px rgba(255, 166, 0, 0.829);
+}
+
+.budget {
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow:0 7px rgba(255, 192, 203, 0.856);
+}
+
+.eigentum {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(0, 217, 255);
+    border-radius: 10px;
+    box-shadow:0 7px rgba(0, 217, 255, 0.836);
+}
+
+.impfungen {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(134, 247, 134);
+    border-radius: 10px;
+    box-shadow:0 7px rgba(134, 247, 134, 0.808);
+}
+
 .contents{
     height:500px;
     margin-top: 100px;
@@ -68,15 +140,12 @@ body{
 }
 
 .contents-item{
-    float: left;
     margin-right: 40px;
+    padding: 10px;
+    float: left;
+    width: 25%;
 }
 
-.contents-item p {
-    color:white;
-    font-size: 24px;
-    margin-top: 30px;
-}
 
 .contact-form{
     padding-top: 100px;
@@ -96,7 +165,7 @@ input,textarea {
     background-color: #dee7ec;
     color: #889eab;
 }
-header{
+.header{
     height: 65px;
     background-color: rgba(34,49, 52, 0.9);
 }
@@ -135,5 +204,13 @@ header{
 .contact-form p{
     color: white;
 }
+
+
+.contents-item a{
+    line-height: 65px;
+    padding: 0 auto;
+    display: block;
+}
+
 
 
